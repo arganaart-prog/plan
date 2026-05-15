@@ -55,7 +55,7 @@ const targetMajors = {
   primary: "D4/S1 Teknik Informatika",
   secondary: "Sistem Informasi",
   note:
-    "Pilihan utama saya adalah Teknik Informatika. Jika tersedia, pilihan kedua adalah Sistem Informasi karena masih relevan dengan teknologi, bisnis digital, dan pengembangan sistem.",
+    "Pilihan utama saya adalah Teknik Informatika. Sebagai alternatif, Sistem Informasi menjadi opsi yang relevan karena masih berhubungan erat dengan teknologi, bisnis digital, dan pengembangan sistem.",
 };
 
 const campuses = [
@@ -65,20 +65,20 @@ const campuses = [
     status: "Prioritas Realistis",
     tagClass: "tag-green",
     chance: 85,
-    note: "Peluang paling realistis dan cocok dengan tujuan kuliah berbasis skill",
+    note: "Pilihan realistis untuk langsung membangun keterampilan praktis",
     risk: "Sedang",
     color: "#059669",
-    majorFit: "Cocok untuk D4 bidang teknologi/informatika.",
+    majorFit: "Sangat sesuai untuk program D4 di bidang teknologi atau informatika.",
     whyChoose: [
-      "Lebih realistis dari sisi peluang dan kesiapan kerja.",
-      "Cocok jika ingin cepat masuk dunia industri.",
-      "Potensi lebih sejalan dengan tujuan membangun skill teknis.",
+      "Memiliki peluang penerimaan yang paling realistis.",
+      "Pendidikan vokasi menawarkan jalur terarah untuk persiapan dunia kerja.",
+      "Sangat sejalan dengan tujuan saya untuk membangun keterampilan teknis.",
     ],
     whyNotMain: [
-      "Perlu memastikan prodi yang benar-benar sesuai dengan target Teknik Informatika/Sistem Informasi.",
-      "Perlu cek detail biaya dan peluang beasiswa.",
+      "Perlu peninjauan lebih lanjut terkait kesesuaian program studi dengan target spesifik.",
+      "Informasi detail mengenai biaya dan beasiswa masih perlu dikaji lebih mendalam.",
     ],
-    decision: "Layak menjadi pilihan realistis utama.",
+    decision: "Menjadi pilihan realistis utama saya pada saat ini.",
   },
   {
     name: "Universitas Negeri Malang",
@@ -86,23 +86,23 @@ const campuses = [
     status: "Alternatif Kuat",
     tagClass: "tag-blue",
     chance: 60,
-    note: "Relatif stabil dan masih realistis",
+    note: "Pilihan stabil dengan peluang yang masih masuk akal",
     risk: "Sedang",
     color: "#2563eb",
     majorFit:
-      "Ada Teknik Informatika, tetapi tidak ada Sistem Informasi sebagai pilihan kedua.",
+      "Menyediakan Teknik Informatika, namun belum memiliki program Sistem Informasi.",
     whyChoose: [
-      "Masih termasuk PTN yang kuat dan realistis.",
-      "Cocok jika tetap ingin mengambil jalur Teknik Informatika.",
-      "Risiko pembiayaan relatif masih bisa dipertimbangkan.",
+      "Merupakan PTN yang kuat dengan peluang penerimaan yang masih realistis.",
+      "Sangat sesuai jika saya memutuskan untuk fokus penuh pada Teknik Informatika.",
+      "Aspek biaya pendidikan masih berada dalam batas yang dapat dipertimbangkan.",
     ],
     whyNotMain: [
-      "Pilihan jurusan kurang fleksibel karena fokusnya hanya Teknik Informatika.",
-      "Tidak ada Sistem Informasi sebagai pilihan cadangan jurusan.",
-      "Jika tidak masuk Teknik Informatika, opsi prodi yang sesuai menjadi lebih terbatas.",
+      "Pilihan jurusan kurang fleksibel karena tidak adanya program Sistem Informasi.",
+      "Jika tidak diterima di Teknik Informatika, opsi alternatif menjadi terbatas.",
+      "Tidak memiliki rencana cadangan untuk jurusan lain di kampus yang sama.",
     ],
     decision:
-      "Tetap layak, tetapi tidak sefleksibel kampus yang punya pilihan Sistem Informasi.",
+      "Masih dipertimbangkan secara serius, namun kurang fleksibel dibandingkan kampus yang memiliki jurusan Sistem Informasi.",
   },
   {
     name: "UIN Malang",
@@ -110,22 +110,22 @@ const campuses = [
     status: "Alternatif Realistis",
     tagClass: "tag-cyan",
     chance: 55,
-    note: "Fleksibel, tetapi ada pertimbangan ma'had",
+    note: "Opsi yang baik, namun program asrama menjadi pertimbangan tersendiri",
     risk: "Sedang",
     color: "#0891b2",
-    majorFit: "Perlu memastikan prodi teknologi yang sesuai.",
+    majorFit: "Perlu ditinjau lebih lanjut kesesuaian program studi teknologinya dengan target saya.",
     whyChoose: [
-      "Masih menjadi alternatif PTN yang realistis.",
-      "Lingkungan akademik cukup terstruktur.",
-      "Bisa menjadi opsi jika pembiayaan dan jurusan sesuai.",
+      "Masih termasuk dalam kategori PTN yang realistis untuk diperjuangkan.",
+      "Memiliki lingkungan akademik yang terstruktur dengan baik.",
+      "Dapat menjadi opsi utama jika jurusan dan biaya sesuai dengan ekspektasi.",
     ],
     whyNotMain: [
-      "Ada kewajiban ma'had/asrama selama sekitar 1 tahun.",
-      "Kewajiban asrama bisa membatasi fleksibilitas waktu.",
-      "Saya ingin tetap membantu bisnis florist dan membangun bisnis dropshipper.",
+      "Terdapat kewajiban tinggal di ma'had atau asrama pada tahun pertama.",
+      "Kewajiban asrama berpotensi mengurangi fleksibilitas waktu saya.",
+      "Saya membutuhkan manajemen waktu yang fleksibel untuk bisnis florist dan pekerjaan sampingan.",
     ],
     decision:
-      "Dipertimbangkan, tetapi bukan prioritas karena kebutuhan waktu dan fleksibilitas.",
+      "Masih dipertimbangkan, namun bukan sebagai prioritas utama mengingat saya membutuhkan fleksibilitas waktu.",
   },
   {
     name: "Universitas Brawijaya",
@@ -133,27 +133,27 @@ const campuses = [
     status: "Prioritas Impian",
     tagClass: "tag-orange",
     chance: 75,
-    note: "Kampus impian dengan peluang yang sangat baik",
+    note: "Kampus impian dengan peluang baik, namun memerlukan perhitungan finansial yang matang",
     risk: "Sedang",
     color: "#ea580c",
     majorFit:
-      "Sangat menarik jika bisa masuk bidang teknologi/informatika.",
+      "Menjadi pilihan ideal jika dapat diterima di program teknologi atau informatika.",
     whyChoose: [
-      "UB adalah kampus impian saya.",
-      "Reputasi kuat dan relasi luas.",
-      "Lingkungan kompetitif bisa mendorong perkembangan diri.",
+      "Universitas Brawijaya merupakan kampus impian saya sejak lama.",
+      "Memiliki reputasi akademik yang sangat kuat serta jaringan relasi yang luas.",
+      "Lingkungan yang kompetitif dapat memacu perkembangan diri saya secara signifikan.",
     ],
     whyNotMain: [
-      "Persaingan SNBP sangat ketat, meskipun saya punya sertifikat.",
-      "Saya belum mengetahui nilai rapor terbaru karena belum sempat ke sekolah.",
-      "Saya sedang fokus bekerja, lomba berikutnya, dan membangun bisnis.",
-      "Ada risiko biaya sosial/gaya hidup yang lebih tinggi jika harus mengikuti lingkungan pergaulan kampus.",
-      "Jika uang saku KIP sekitar Rp5,8 juta per semester, biaya transport dan kebutuhan harian harus dihitung sangat ketat.",
+      "Tingkat persaingan jalur SNBP sangat ketat, meskipun saya memiliki portofolio prestasi.",
+      "Kesiapan nilai rapor terbaru masih perlu divalidasi dengan pihak sekolah.",
+      "Saat ini fokus saya terbagi pada pekerjaan, lomba, dan bisnis, sehingga perlu penyesuaian waktu.",
+      "Biaya hidup dan lingkungan sosial di sekitar kampus cenderung lebih tinggi.",
+      "Akan menjadi tantangan tersendiri jika hanya mengandalkan bantuan finansial dari KIP Kuliah.",
     ],
     financeNote:
-      "Estimasi: jika bensin PP ±Rp20.000/hari dan kuliah 22 hari/bulan, maka transport bisa ±Rp440.000/bulan atau ±Rp2.640.000/semester. Dari Rp5,8 juta/semester, sisa sekitar Rp3,16 juta untuk kebutuhan lain.",
+      "Estimasi perhitungan kasar: Biaya transportasi ±Rp20.000/hari × 22 hari = ±Rp440.000/bulan atau ±Rp2.640.000/semester. Dari total bantuan Rp5.800.000, sisa dana sekitar Rp3.160.000 harus dikelola dengan sangat disiplin untuk kebutuhan lain.",
     decision:
-      "Tetap menjadi kampus impian, tetapi bukan pilihan paling aman secara peluang dan biaya hidup.",
+      "Tetap menjadi target impian, namun bukan pilihan paling aman dari segi pembiayaan hidup.",
   },
   {
     name: "UMM",
@@ -161,22 +161,22 @@ const campuses = [
     status: "Cadangan",
     tagClass: "tag-orange",
     chance: 75,
-    note: "Peluang masuk lebih besar, tetapi biaya perlu dipastikan",
+    note: "Peluang penerimaan tinggi, dengan catatan biaya harus dipastikan terlebih dahulu",
     risk: "Sedang-Tinggi",
     color: "#ea580c",
     majorFit:
-      "Perlu cek jurusan Teknik Informatika/Sistem Informasi dan skema beasiswa.",
+      "Perlu meninjau ketersediaan program TI/SI serta peluang beasiswa yang ada.",
     whyChoose: [
-      "Bisa menjadi opsi cadangan jika PTN tidak memungkinkan.",
-      "Peluang masuk cenderung lebih besar.",
-      "Tetap bisa dipertimbangkan jika ada beasiswa atau keringanan biaya.",
+      "Dipersiapkan sebagai rencana cadangan jika belum diterima di PTN.",
+      "Secara umum, peluang penerimaan relatif lebih terbuka dibandingkan PTN.",
+      "Menjadi opsi yang sangat baik apabila mendapat dukungan beasiswa atau keringanan biaya.",
     ],
     whyNotMain: [
-      "Karena PTS, risiko biaya lebih tinggi jika tidak mendapatkan beasiswa.",
-      "Harus memastikan skema beasiswa internal atau keringanan biaya.",
-      "Tidak boleh dipilih jika pembiayaan belum aman.",
+      "Sebagai PTS, komponen biaya pendidikan cenderung lebih tinggi jika tanpa beasiswa.",
+      "Membutuhkan kepastian dukungan beasiswa sebelum memutuskan untuk mendaftar.",
+      "Tidak akan diambil sebagai prioritas jika kesiapan finansial belum sepenuhnya aman.",
     ],
-    decision: "Cadangan jika ada beasiswa yang jelas.",
+    decision: "Berstatus sebagai cadangan, namun sangat bergantung pada kejelasan dukungan beasiswa.",
   },
   {
     name: "ITN Malang",
@@ -184,21 +184,21 @@ const campuses = [
     status: "Cadangan Teknis",
     tagClass: "tag-purple",
     chance: 75,
-    note: "Cocok untuk bidang teknik/terapan, tetapi biaya perlu dipastikan",
+    note: "Sesuai untuk fokus teknik, namun estimasi biaya perlu dipertimbangkan",
     risk: "Sedang-Tinggi",
     color: "#7c3aed",
-    majorFit: "Cocok jika ingin fokus teknologi/teknik.",
+    majorFit: "Sangat relevan jika ingin berfokus pada teknologi dan ilmu teknik terapan.",
     whyChoose: [
-      "Masih relevan dengan bidang teknologi dan teknik.",
-      "Bisa menjadi opsi jika ingin kampus yang lebih terapan.",
-      "Peluang masuk relatif lebih realistis.",
+      "Fokus akademiknya sangat sejalan dengan minat saya di bidang teknologi dan teknik.",
+      "Merupakan alternatif yang baik untuk kampus dengan pendekatan pembelajaran praktis.",
+      "Peluang penerimaan masuk tergolong sangat realistis.",
     ],
     whyNotMain: [
-      "Status PTS membuat pembiayaan harus dihitung lebih hati-hati.",
-      "Perlu memastikan beasiswa internal atau keringanan biaya.",
-      "Bukan pilihan utama jika biaya belum aman.",
+      "Berstatus PTS, sehingga perhitungan finansial harus dilakukan dengan sangat cermat.",
+      "Perlu memastikan ketersediaan beasiswa internal atau program keringanan biaya.",
+      "Tidak menjadi prioritas utama apabila belum ada jaminan keamanan secara pembiayaan.",
     ],
-    decision: "Cadangan teknis jika ada dukungan biaya.",
+    decision: "Merupakan cadangan teknis yang akan dieksekusi apabila terdapat dukungan finansial yang memadai.",
   },
 ];
 
@@ -208,31 +208,31 @@ const scholarships = [
     badge: "Prioritas 1",
     tagClass: "tag-blue",
     accent: "#2563eb",
-    subtitle: "Pembiayaan awal kuliah",
+    subtitle: "Pilar utama dalam perencanaan pembiayaan kuliah",
     timeline: "Akun: 3 Feb – 31 Okt · Seleksi SNBP: 3–18 Feb 2026",
     docs: [
-      "KTP",
-      "Kartu Keluarga",
-      "NISN, NPSN, dan NIK",
+      "Kartu Tanda Penduduk (KTP)",
+      "Kartu Keluarga (KK)",
+      "NISN, NPSN, dan NIK yang valid",
       "Rapor / SKL / Ijazah",
-      "SKTM / DTKS / KIP / KKS / PKH jika ada",
-      "Surat penghasilan orang tua",
-      "Foto rumah jika diminta",
-      "Sertifikat prestasi lomba",
+      "Dokumen pendukung (SKTM / DTKS / KIP / KKS / PKH)",
+      "Surat keterangan penghasilan orang tua",
+      "Dokumentasi kondisi rumah sesuai persyaratan",
+      "Sertifikat prestasi lomba pendukung",
     ],
     benefits: [
-      "Bantuan biaya pendidikan / UKT",
-      "Bantuan biaya hidup sesuai ketentuan wilayah",
-      "Membantu kuliah tanpa membebani keluarga",
-      "Menjadi jalur pembiayaan utama sejak awal kuliah",
+      "Pembebasan biaya pendidikan atau UKT secara penuh",
+      "Dukungan bantuan biaya hidup setiap semester",
+      "Meringankan beban finansial keluarga secara signifikan",
+      "Menjadi fondasi utama pembiayaan sejak awal masa perkuliahan",
     ],
     obligations: [
-      "Wajib melengkapi data KIP Kuliah sebelum finalisasi SNBP",
-      "Selesaikan pendaftaran paling lambat 17 Feb 2026 (H-1 penutupan)",
-      "Menjaga status akademik sebagai mahasiswa aktif",
-      "Mengikuti ketentuan kampus dan program KIP Kuliah",
-      "Menggunakan bantuan sesuai kebutuhan pendidikan",
-      "Menjaga prestasi dan tidak menyalahgunakan bantuan",
+      "Melengkapi seluruh data KIP Kuliah sebelum penutupan jalur SNBP",
+      "Melakukan finalisasi paling lambat 17 Februari 2026 untuk sinkronisasi data",
+      "Mempertahankan status sebagai mahasiswa aktif",
+      "Mematuhi seluruh regulasi kampus dan pedoman program KIP Kuliah",
+      "Mengelola dana bantuan secara bertanggung jawab untuk keperluan pendidikan",
+      "Menjaga prestasi akademik dan integritas sebagai penerima beasiswa",
     ],
   },
   {
@@ -240,29 +240,29 @@ const scholarships = [
     badge: "Prioritas 2",
     tagClass: "tag-green",
     accent: "#059669",
-    subtitle: "Alternatif berbasis prestasi",
-    timeline: "Perkiraan: 15–29 Juli 2026",
+    subtitle: "Rencana alternatif jika KIP Kuliah tidak terealisasi",
+    timeline: "Estimasi: 15–29 Juli 2026",
     docs: [
-      "KTP",
-      "Kartu Keluarga",
-      "Ijazah / SKL",
-      "Rapor atau transkrip",
-      "Sertifikat prestasi",
-      "Esai rencana studi",
-      "Surat rekomendasi",
-      "Surat pernyataan tidak menerima beasiswa lain",
+      "Kartu Tanda Penduduk (KTP)",
+      "Kartu Keluarga (KK)",
+      "Ijazah atau Surat Keterangan Lulus (SKL)",
+      "Rapor atau transkrip nilai akademik",
+      "Portofolio sertifikat prestasi",
+      "Esai komprehensif mengenai rencana studi",
+      "Surat rekomendasi dari pihak terkait",
+      "Surat pernyataan tidak sedang menerima beasiswa lain",
     ],
     benefits: [
-      "Bantuan biaya pendidikan",
-      "Bisa memperkuat posisi sebagai siswa berprestasi",
-      "Mendukung rencana kuliah dengan portofolio lomba",
-      "Menjadi alternatif jika KIP Kuliah tidak lolos",
+      "Mendapatkan dukungan biaya pendidikan secara penuh",
+      "Sebagai pengakuan formal atas capaian prestasi akademik maupun non-akademik",
+      "Memaksimalkan portofolio kompetisi sebagai nilai tambah yang signifikan",
+      "Berfungsi sebagai jaring pengaman finansial di luar KIP Kuliah",
     ],
     obligations: [
-      "Menjaga prestasi akademik",
-      "Memenuhi laporan atau ketentuan penerima beasiswa",
-      "Tidak menerima beasiswa lain jika aturannya melarang",
-      "Menjalankan rencana studi dengan bertanggung jawab",
+      "Mempertahankan dan meningkatkan prestasi akademik secara konsisten",
+      "Memenuhi kewajiban pelaporan berkala sesuai ketentuan penyelenggara",
+      "Mematuhi larangan penerimaan pendanaan ganda dari sumber beasiswa lain",
+      "Menjalankan rencana studi dengan komitmen dan keseriusan penuh",
     ],
   },
   {
@@ -270,85 +270,105 @@ const scholarships = [
     badge: "Prioritas 3",
     tagClass: "tag-cyan",
     accent: "#0891b2",
-    subtitle: "Jika syarat sesuai",
-    timeline: "1 April – 31 Mei 2026",
+    subtitle: "Opsi pendukung bila beasiswa utama tidak didapatkan",
+    timeline: "Pendaftaran: 1 April – 31 Mei 2026",
     docs: [
-      "KTP",
-      "KK",
-      "Dokumen akademik",
-      "Sertifikat prestasi",
-      "Esai atau motivation letter jika diminta",
-      "Surat rekomendasi jika diminta",
-      "Bukti diterima / aktif kuliah jika diperlukan",
+      "Kartu Tanda Penduduk (KTP)",
+      "Kartu Keluarga (KK)",
+      "Dokumen rekam jejak akademik",
+      "Sertifikat pencapaian prestasi",
+      "Esai atau surat motivasi (jika dipersyaratkan)",
+      "Surat rekomendasi (jika dipersyaratkan)",
+      "Bukti resmi penerimaan atau status mahasiswa aktif",
     ],
     benefits: [
-      "Menjadi opsi lanjutan jika beasiswa utama gagal",
-      "Mendukung pembiayaan pendidikan",
-      "Bisa memperkuat rencana kuliah berbasis prestasi",
+      "Berfungsi sebagai alternatif jaring pengaman pembiayaan",
+      "Memberikan dukungan finansial yang membantu kelancaran pendidikan",
+      "Menambah kredibilitas akademik melalui dukungan beasiswa berbasis prestasi",
     ],
     obligations: [
-      "Memenuhi syarat program yang berlaku",
-      "Mengikuti seleksi administrasi dan verifikasi",
-      "Menjaga komitmen akademik",
-      "Mematuhi aturan penerima beasiswa",
+      "Memenuhi seluruh persyaratan program yang ditetapkan",
+      "Mengikuti proses seleksi administrasi dan tahapan verifikasi",
+      "Menjaga komitmen terhadap pencapaian akademik",
+      "Mematuhi setiap pedoman sebagai penerima beasiswa",
+    ],
+  },
+  {
+    name: "Beasiswa PWNU Jawa Timur",
+    badge: "Segera",
+    tagClass: "tag-orange",
+    accent: "#ea580c",
+    subtitle: "Beasiswa PWNU Jawa Timur 2026",
+    timeline: "Pendaftaran: 27 April – 20 Mei 2026 · Seleksi: 23 Mei 2026",
+    docs: [
+      "Kartu Tanda Penduduk (KTP)",
+      "Kartu Keluarga (KK)",
+      "Surat rekomendasi PCNU setempat",
+      "Dokumen akademik (Rapor/Ijazah)",
+      "Sertifikat prestasi pendukung",
+      "Esai / Motivasi mengikuti program",
+    ],
+    benefits: [
+      "Bantuan biaya pendidikan tinggi",
+      "Networking dalam jaringan Nahdlatul Ulama",
+      "Kesempatan pengembangan diri dan pengabdian",
+    ],
+    obligations: [
+      "Memenuhi seluruh tahapan seleksi (administrasi & tes)",
+      "Menjaga integritas dan nilai-nilai ke-NU-an",
+      "Aktif dalam kegiatan yang ditentukan pengelola beasiswa",
     ],
   },
   {
     name: "Djarum Beasiswa Plus",
-    badge: "Saat Kuliah",
+    badge: "Opsi Terakhir",
     tagClass: "tag-orange",
     accent: "#ea580c",
-    subtitle: "Target setelah menjadi mahasiswa",
-    timeline: "Target: April 2028 (Saat Semester 4)",
+    subtitle: "Target pencapaian ketika sudah berstatus mahasiswa aktif",
+    timeline: "Estimasi Target: April 2028 (Semester 4)",
     docs: [
-      "KTM",
-      "KTP",
-      "Transkrip / KHS",
-      "Bukti IPK",
-      "Bukti aktif organisasi",
-      "Sertifikat prestasi",
-      "Surat tidak sedang menerima beasiswa lain",
+      "Kartu Tanda Mahasiswa (KTM)",
+      "Kartu Tanda Penduduk (KTP)",
+      "Transkrip Nilai atau Kartu Hasil Studi (KHS)",
+      "Bukti pencapaian Indeks Prestasi Kumulatif (IPK)",
+      "Bukti keaktifan dalam organisasi",
+      "Sertifikat prestasi tambahan di masa kuliah",
+      "Surat keterangan tidak sedang menerima beasiswa lain",
     ],
     benefits: [
-      "Bantuan dana pendidikan",
-      "Pelatihan soft skill",
-      "Networking dengan penerima beasiswa lain",
-      "Pengembangan karakter, leadership, dan komunikasi",
+      "Mendapatkan dukungan dana pendidikan yang memadai",
+      "Kesempatan mengikuti program pelatihan soft skill tingkat lanjut",
+      "Memperluas jaringan profesional dengan sesama penerima beasiswa unggulan",
+      "Mendapatkan pembinaan di bidang kepemimpinan, karakter, dan komunikasi",
     ],
     obligations: [
-      "Menjaga IPK sesuai ketentuan",
-      "Aktif mengikuti kegiatan pembinaan",
-      "Menjaga nama baik program",
-      "Tetap aktif dalam organisasi atau kegiatan positif",
+      "Mempertahankan standar IPK sesuai dengan ketentuan program",
+      "Wajib berpartisipasi aktif dalam seluruh rangkaian kegiatan pembinaan",
+      "Menjaga integritas dan nama baik program beasiswa",
+      "Menunjukkan keaktifan berkelanjutan dalam organisasi atau kegiatan positif",
     ],
   },
+];
+
+const consideredScholarships = [
   {
-    name: "Pertamina Sobat Bumi",
-    badge: "Lanjutan",
+    name: "Beasiswa Pemkab Sidoarjo",
+    badge: "Pernah Dipertimbangkan",
     tagClass: "tag-purple",
     accent: "#7c3aed",
-    subtitle: "Target prestasi dan kontribusi",
-    timeline: "Update resmi",
+    subtitle: "Dibatalkan dari plan utama",
+    timeline: "Pernah dikaji untuk tahun 2026",
     docs: [
-      "KTP",
-      "KTM",
-      "Transkrip nilai",
-      "Sertifikat prestasi",
-      "Esai / motivation letter",
-      "Proposal atau bukti kontribusi sosial/lingkungan jika diminta",
-      "Dokumen pendukung kampus",
+      "Kartu Tanda Penduduk (KTP) Sidoarjo",
+      "Kartu Keluarga (KK)",
+      "Transkrip nilai / Bukti prestasi",
     ],
     benefits: [
-      "Bantuan biaya pendidikan",
-      "Pengembangan diri dan kontribusi sosial",
-      "Meningkatkan portofolio sebagai mahasiswa aktif",
-      "Cocok untuk target setelah mulai kuliah",
+      "Mendapatkan bantuan sebesar Rp5 juta per orang",
+      "Status cakupan (full UKT atau biaya lain) tidak jelas, sehingga tidak dijadikan prioritas utama",
     ],
     obligations: [
-      "Menjaga prestasi akademik",
-      "Aktif dalam kegiatan sosial atau lingkungan",
-      "Mengikuti program pembinaan jika ada",
-      "Memenuhi laporan atau kewajiban penerima beasiswa",
+      "Mempertahankan prestasi akademik sesuai standar Pemkab",
     ],
   },
 ];
@@ -359,11 +379,11 @@ const mandiriSchedules = [
     short: "UB",
     badge: "SMUB",
     colorClass: "mandiri-red",
-    note: "Perkiraan pribadi · cek ulang di selma.ub.ac.id",
+    note: "Estimasi jadwal — mohon verifikasi kembali melalui selma.ub.ac.id",
     items: [
-      "SMUB Rapor: 7–28 Mei 2026",
-      "SMUB Nilai UTBK: 1–17 Juni 2026",
-      "Fokus seleksi: nilai rapor dan nilai UTBK",
+      "Pendaftaran SMUB Rapor: 7–28 Mei 2026",
+      "Pendaftaran SMUB Nilai UTBK: 1–17 Juni 2026",
+      "Fokus seleksi: Evaluasi capaian rapor dan nilai UTBK",
     ],
   },
   {
@@ -371,11 +391,11 @@ const mandiriSchedules = [
     short: "UIN",
     badge: "Mandiri Tes",
     colorClass: "mandiri-cyan",
-    note: "Perkiraan pribadi · cek ulang laman PMB UIN Malang",
+    note: "Estimasi jadwal — mohon verifikasi melalui laman PMB UIN Malang",
     items: [
-      "Pendaftaran: 6 April – 2 Juli 2026",
-      "Seleksi Mandiri Tes: 7–9 Juli 2026",
-      "Pengumuman: 15 Juli 2026",
+      "Periode Pendaftaran: 6 April – 2 Juli 2026",
+      "Pelaksanaan Mandiri Tes: 7–9 Juli 2026",
+      "Pengumuman Hasil: 15 Juli 2026",
     ],
   },
   {
@@ -383,14 +403,14 @@ const mandiriSchedules = [
     short: "UM",
     badge: "Mandiri UM",
     colorClass: "mandiri-blue",
-    note: "Perkiraan pribadi · cek ulang di seleksi.um.ac.id",
+    note: "Estimasi jadwal — mohon verifikasi melalui seleksi.um.ac.id",
     items: [
-      "Mandiri Prestasi: 1 April – 20 Mei 2026",
-      "Mandiri Leadership: 1 April – 29 Mei 2026",
+      "Mandiri Jalur Prestasi: 1 April – 20 Mei 2026",
+      "Mandiri Jalur Leadership: 1 April – 29 Mei 2026",
       "Mandiri Skor UTBK-SNBT: 1 April – 29 Mei 2026",
       "Mandiri TMBK: 1 April – 3 Juni 2026",
-      "Mandiri Kemitraan: 1 April – 29 Mei 2026",
-      "Kelas Internasional Gel. 2: 7 April – 15 Juni 2026",
+      "Mandiri Jalur Kemitraan: 1 April – 29 Mei 2026",
+      "Kelas Internasional Gelombang 2: 7 April – 15 Juni 2026",
     ],
   },
   {
@@ -398,15 +418,15 @@ const mandiriSchedules = [
     short: "Polinema",
     badge: "Mandiri",
     colorClass: "mandiri-green",
-    note: "Perkiraan pribadi · cek ulang laman PMB Polinema",
+    note: "Estimasi jadwal — mohon verifikasi melalui laman PMB Polinema",
     items: [
-      "Mandiri Konsorsium: 23 April – 31 Mei 2026",
-      "Tes CBT Konsorsium: 5–8 Juni 2026",
-      "Pengumuman Konsorsium: 14 Juni 2026",
+      "Mandiri Jalur Konsorsium: 23 April – 31 Mei 2026",
+      "Pelaksanaan Tes CBT Konsorsium: 5–8 Juni 2026",
+      "Pengumuman Hasil Konsorsium: 14 Juni 2026",
       "Daftar Ulang Konsorsium: 15–29 Juni 2026",
       "Mandiri Prestasi & Nilai UTBK: 21 April – 7 Juni 2026",
-      "Seleksi Berkas: 8–10 Juni 2026",
-      "Pengumuman: 12 Juni 2026",
+      "Proses Seleksi Berkas: 8–10 Juni 2026",
+      "Pengumuman Hasil: 12 Juni 2026",
       "Daftar Ulang: 15–20 Juni 2026",
     ],
   },
@@ -418,30 +438,30 @@ const competitionSchedules = [
     field: "Cyber Security",
     result: "Juara 3",
     date: "18–21 Februari 2025",
-    status: "Sudah Dilaksanakan",
+    status: "Telah Dilaksanakan",
     badgeClass: "tag-green",
     description:
-      "Prestasi pertama yang menjadi bukti kemampuan di bidang cyber security.",
+      "Pencapaian kompetitif pertama yang mengonfirmasi potensi dan minat saya di bidang keamanan siber (cyber security).",
   },
   {
     title: "LKS Ma'arif Sidoarjo 2026",
     field: "Cloud Computing",
     result: "Juara 3",
     date: "16–18 Januari 2026",
-    status: "Sudah Dilaksanakan",
+    status: "Telah Dilaksanakan",
     badgeClass: "tag-green",
     description:
-      "Prestasi kedua di bidang cloud computing dan menjadi penguat portofolio teknologi.",
+      "Pencapaian kedua pada bidang komputasi awan (cloud computing) yang secara signifikan memperkuat portofolio kompetensi teknologi saya.",
   },
   {
     title: "LKS Dikmen Sidoarjo 2026",
     field: "Cyber Security",
-    result: "Target: lolos provinsi",
-    date: "Pembukaan 6 Februari 2026 · Lomba 8–11 Februari 2026",
-    status: "Target Berikutnya",
+    result: "Target: Lolos seleksi provinsi",
+    date: "Pembukaan: 6 Feb 2026 · Pelaksanaan: 8–11 Feb 2026",
+    status: "Target Mendatang",
     badgeClass: "tag-orange",
     description:
-      "Target realistis adalah juara 2 agar bisa lolos provinsi, karena juara 1 kemungkinan besar dari Telkom.",
+      "Menargetkan posisi Juara 2 sebagai proyeksi realistis, mempertimbangkan dominasi institusi lain, dengan prioritas utama lolos ke tingkat provinsi.",
   },
 ];
 
@@ -562,14 +582,14 @@ function renderCampusList() {
 
           <button class="campus-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#campus-${index}">
             <i class="bi bi-chevron-down"></i>
-            Lihat alasan memilih / tidak memilih
+            Lihat pertimbangan dan analisis pilihan
           </button>
 
           <div class="collapse mt-3" id="campus-${index}">
             <div class="reason-box choose">
               <div class="reason-title">
                 <i class="bi bi-check-circle-fill"></i>
-                Alasan dipertimbangkan
+                Alasan Dipertimbangkan
               </div>
               <ul>
                 ${campus.whyChoose.map((item) => `<li>${item}</li>`).join("")}
@@ -579,7 +599,7 @@ function renderCampusList() {
             <div class="reason-box not-choose">
               <div class="reason-title">
                 <i class="bi bi-exclamation-circle-fill"></i>
-                Alasan tidak menjadi prioritas utama
+                Kendala & Batasan
               </div>
               <ul>
                 ${campus.whyNotMain.map((item) => `<li>${item}</li>`).join("")}
@@ -614,7 +634,7 @@ function renderCampusList() {
     campusHTML +
     `<div class="small text-secondary fw-bold mt-3">
       <i class="bi bi-info-circle me-1"></i>
-      Persentase = Estimasi Personal, bukan angka resmi kampus.
+      Catatan: Persentase probabilitas merupakan estimasi pribadi, bukan angka resmi dari pihak kampus.
     </div>`;
 }
 
@@ -655,14 +675,14 @@ function renderScholarships() {
           data-bs-target="#scholar-${index}"
         >
           <i class="bi bi-chevron-down"></i>
-          Lihat dokumen, benefit, dan syarat setelah diterima
+          Lihat dokumen, manfaat, dan persyaratan lanjutan
         </button>
 
         <div class="collapse mt-3" id="scholar-${index}">
           <div class="scholar-detail-box docs">
             <div class="scholar-detail-title">
               <i class="bi bi-folder-check"></i>
-              Dokumen yang harus disiapkan
+              Dokumen yang perlu disiapkan
             </div>
             <ul>
               ${item.docs.map((doc) => `<li>${doc}</li>`).join("")}
@@ -672,7 +692,7 @@ function renderScholarships() {
           <div class="scholar-detail-box benefits">
             <div class="scholar-detail-title">
               <i class="bi bi-gift-fill"></i>
-              Benefit beasiswa
+              Manfaat yang diperoleh
             </div>
             <ul>
               ${item.benefits.map((benefit) => `<li>${benefit}</li>`).join("")}
@@ -682,7 +702,7 @@ function renderScholarships() {
           <div class="scholar-detail-box obligations">
             <div class="scholar-detail-title">
               <i class="bi bi-check2-circle"></i>
-              Syarat yang dilakukan jika sudah diterima
+              Kewajiban pasca penerimaan beasiswa
             </div>
             <ul>
               ${item.obligations.map((obligation) => `<li>${obligation}</li>`).join("")}
@@ -699,6 +719,33 @@ function renderScholarships() {
     `
     )
     .join("");
+
+  const consideredWrapper = document.querySelector("#consideredScholarshipList");
+  if (consideredWrapper) {
+    consideredWrapper.innerHTML = `
+      <div class="mt-4 mb-3">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <div class="step-number purple" style="width: 28px; height: 28px; font-size: 10px;">?</div>
+          <div class="fw-bold small text-secondary text-uppercase">Pernah Dipertimbangkan (Opsional)</div>
+        </div>
+        ${consideredScholarships.map(item => `
+          <div class="alert alert-light border-2 rounded-4 p-3 mb-2" style="border-style: dashed !important; background: rgba(255,255,255,0.4);">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+              <div>
+                <div class="fw-bold text-dark">${item.name}</div>
+                <div class="small text-secondary">${item.subtitle}</div>
+              </div>
+              <span class="tag tag-purple">${item.badge}</span>
+            </div>
+            <p class="small text-secondary mb-0 mt-2">
+              <i class="bi bi-info-circle-fill me-1"></i>
+              ${item.benefits[1]}
+            </p>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  }
 }
 
 renderCampusList();
@@ -822,9 +869,9 @@ const nodeDetails = {
     title: "Plan 1 Tahun",
     content: `
       <ul>
-        <li>Ini adalah tugas plan sebelum lomba dari Pak Isa Hamdan, S.Kom.</li>
-        <li>Fokus utama: lomba, portofolio, pilihan kampus, dan strategi beasiswa.</li>
-        <li>Tujuan utama: kuliah tanpa biaya atau dengan biaya seminimal mungkin.</li>
+        <li>Ini tugas plan sebelum lomba dari Pak Isa Hamdan, S.Kom.</li>
+        <li>Isinya soal lomba, portofolio, kampus, dan strategi beasiswa.</li>
+        <li>Tujuannya satu: gimana caranya bisa kuliah tanpa biban biaya.</li>
       </ul>
     `,
   },
@@ -833,10 +880,10 @@ const nodeDetails = {
     title: "Peta Pilihan Kampus",
     content: `
       <ul>
-        <li>Bagian ini menjelaskan alasan memilih dan tidak memilih setiap kampus.</li>
-        <li>Persentase peluang adalah estimasi pribadi, bukan data resmi kampus.</li>
+        <li>Di sini saya jelaskan kenapa milih atau nggak milih tiap kampus.</li>
+        <li>Persentase peluang itu perkiraan saya sendiri, bukan data resmi.</li>
         <li>Jurusan utama: D4/S1 Teknik Informatika.</li>
-        <li>Jurusan kedua: Sistem Informasi.</li>
+        <li>Kalau nggak ada, pilihan kedua: Sistem Informasi.</li>
       </ul>
     `,
   },
@@ -845,8 +892,8 @@ const nodeDetails = {
     title: "Peta Strategi Beasiswa",
     content: `
       <ul>
-        <li>Setiap beasiswa punya dokumen, benefit, syarat setelah diterima, dan alasan kecocokan.</li>
-        <li>Urutan prioritas: KIP Kuliah → Beasiswa Unggulan → Beasiswa Bangkit → Djarum → Pertamina Sobat Bumi.</li>
+        <li>Tiap beasiswa punya dokumen, benefit, syarat, dan alasan kenapa cocok buat saya.</li>
+        <li>Urutannya: KIP Kuliah → Beasiswa Unggulan → Bangkit → PWNU → Djarum.</li>
       </ul>
     `,
   },
@@ -855,8 +902,8 @@ const nodeDetails = {
     title: "Peta Portofolio Prestasi",
     content: `
       <ul>
-        <li>Prestasi digunakan untuk memperkuat peluang beasiswa.</li>
-        <li>Sertifikat lomba menjadi bukti kemampuan di bidang teknologi.</li>
+        <li>Prestasi lomba ini yang jadi senjata buat daftar beasiswa.</li>
+        <li>Sertifikat jadi bukti nyata kemampuan saya di bidang teknologi.</li>
       </ul>
     `,
   },
@@ -869,9 +916,9 @@ const nodeDetails = {
     title: "Polinema",
     content: `
       <ul>
-        <li>Status: prioritas realistis.</li>
-        <li>Peluang masuk estimasi: <strong>85%</strong>.</li>
-        <li>Cocok dengan arah vokasi, skill teknis, dan kesiapan kerja.</li>
+        <li>Status: pilihan paling realistis.</li>
+        <li>Peluang masuk perkiraan saya: <strong>85%</strong>.</li>
+        <li>Cocok buat arah vokasi dan langsung siap kerja.</li>
       </ul>
     `,
   },
@@ -880,10 +927,10 @@ const nodeDetails = {
     title: "Polinema - Alasan Memilih",
     content: `
       <ul>
-        <li>Peluang paling realistis menurut estimasi pribadi.</li>
-        <li>Cocok untuk jalur vokasi dan bidang teknologi terapan.</li>
-        <li>Lebih dekat dengan dunia industri dan skill kerja.</li>
-        <li>Lebih masuk akal untuk strategi kuliah dengan pembiayaan aman.</li>
+        <li>Peluangnya paling realistis menurut hitungan saya.</li>
+        <li>Vokasi + bidang teknologi terapan = pas banget.</li>
+        <li>Lebih dekat ke dunia industri dan skill kerja.</li>
+        <li>Masuk akal buat strategi kuliah dengan biaya aman.</li>
       </ul>
     `,
   },
@@ -892,8 +939,8 @@ const nodeDetails = {
     title: "Polinema - Alasan Tidak Memilih Penuh",
     content: `
       <ul>
-        <li>Masih perlu memastikan jurusan yang paling sesuai dengan target Teknik Informatika/Sistem Informasi.</li>
-        <li>Masih perlu mengecek detail biaya, beasiswa, dan jalur mandiri.</li>
+        <li>Masih harus pastiin prodinya beneran sesuai target saya.</li>
+        <li>Detail biaya dan beasiswanya belum saya cek mendalam.</li>
       </ul>
     `,
   },
@@ -902,9 +949,9 @@ const nodeDetails = {
     title: "Universitas Negeri Malang",
     content: `
       <ul>
-        <li>Status: alternatif kuat.</li>
-        <li>Peluang masuk estimasi: <strong>60%</strong>.</li>
-        <li>Masih realistis, tetapi pilihan jurusan kurang fleksibel.</li>
+        <li>Status: alternatif yang kuat.</li>
+        <li>Peluang masuk perkiraan: <strong>60%</strong>.</li>
+        <li>Masih realistis, tapi jurusannya kurang fleksibel.</li>
       </ul>
     `,
   },
@@ -913,9 +960,9 @@ const nodeDetails = {
     title: "UM - Alasan Memilih",
     content: `
       <ul>
-        <li>Termasuk PTN yang kuat and masih realistis.</li>
-        <li>Cocok jika tetap fokus ke Teknik Informatika.</li>
-        <li>Risiko pembiayaan relatif masih bisa dipertimbangkan.</li>
+        <li>PTN yang kuat dan peluangnya masih realistis.</li>
+        <li>Cocok kalau saya tetap fokus ke Teknik Informatika.</li>
+        <li>Soal biaya, masih bisa dipertimbangkan.</li>
       </ul>
     `,
   },
@@ -924,9 +971,9 @@ const nodeDetails = {
     title: "UM - Alasan Tidak Memilih",
     content: `
       <ul>
-        <li>Jurusan yang sesuai hanya Teknik Informatika.</li>
-        <li>Tidak ada Sistem Informasi sebagai pilihan kedua.</li>
-        <li>Jika tidak masuk Teknik Informatika, pilihan jurusan cadangan menjadi terbatas.</li>
+        <li>Cuma ada Teknik Informatika, nggak ada SI.</li>
+        <li>Kalau nggak keterima di TI, pilihan lainnya sempit.</li>
+        <li>Nggak ada plan B jurusan di kampus yang sama.</li>
       </ul>
     `,
   },
@@ -935,9 +982,9 @@ const nodeDetails = {
     title: "UIN Malang",
     content: `
       <ul>
-        <li>Status: alternatif realistis.</li>
-        <li>Peluang masuk estimasi: <strong>55%</strong>.</li>
-        <li>Dipertimbangkan, tetapi ada pertimbangan ma'had/asrama.</li>
+        <li>Status: alternatif yang realistis.</li>
+        <li>Peluang masuk perkiraan: <strong>55%</strong>.</li>
+        <li>Dipertimbangkan, tapi ada urusan ma'had/asrama yang bikin mikir.</li>
       </ul>
     `,
   },
@@ -946,9 +993,9 @@ const nodeDetails = {
     title: "UIN Malang - Alasan Memilih",
     content: `
       <ul>
-        <li>Masih termasuk alternatif PTN yang realistis.</li>
-        <li>Lingkungan akademik cukup terstruktur.</li>
-        <li>Bisa menjadi opsi jika jurusan and pembiayaan sesuai.</li>
+        <li>Masih termasuk PTN yang realistis buat dicoba.</li>
+        <li>Lingkungan akademiknya terstruktur, itu bagus.</li>
+        <li>Bisa jadi opsi kalau jurusan dan biayanya cocok.</li>
       </ul>
     `,
   },
@@ -957,9 +1004,9 @@ const nodeDetails = {
     title: "UIN Malang - Alasan Tidak Memilih",
     content: `
       <ul>
-        <li>Ada kewajiban ma'had/asrama sekitar 1 tahun.</li>
-        <li>Kewajiban asrama mengurangi fleksibilitas waktu dan ruang gerak.</li>
-        <li>Saya ingin ruang yang lebih fleksibel untuk pengembangan diri dan rencana pribadi.</li>
+        <li>Ada kewajiban tinggal di asrama sekitar 1 tahun.</li>
+        <li>Asrama bikin waktu jadi kurang fleksibel.</li>
+        <li>Padahal saya butuh ruang gerak buat bisnis dan pengembangan diri.</li>
       </ul>
     `,
   },
@@ -968,9 +1015,9 @@ const nodeDetails = {
     title: "Universitas Brawijaya",
     content: `
       <ul>
-        <li>Status: prioritas impian.</li>
-        <li>Peluang masuk estimasi: <strong>75%</strong>.</li>
-        <li>Sangat menarik dengan peluang yang sangat baik.</li>
+        <li>Status: kampus impian.</li>
+        <li>Peluang masuk perkiraan: <strong>75%</strong>.</li>
+        <li>Kalau bisa masuk sini, dream banget.</li>
       </ul>
     `,
   },
@@ -979,10 +1026,10 @@ const nodeDetails = {
     title: "UB - Alasan Memilih",
     content: `
       <ul>
-        <li>UB adalah kampus impian saya.</li>
-        <li>Reputasi kuat and relasi luas.</li>
-        <li>Lingkungan kompetitif bisa mendorong perkembangan diri.</li>
-        <li>Cocok jika saya bisa masuk dengan pembiayaan yang aman.</li>
+        <li>Jujur, UB itu kampus impian saya dari dulu.</li>
+        <li>Reputasinya kuat dan relasinya luas banget.</li>
+        <li>Lingkungannya kompetitif — bisa bikin saya berkembang lebih cepat.</li>
+        <li>Oke banget kalau bisa masuk dengan biaya aman.</li>
       </ul>
     `,
   },
@@ -991,10 +1038,10 @@ const nodeDetails = {
     title: "UB - Alasan Tidak Memilih",
     content: `
       <ul>
-        <li>Persaingan SNBP sangat ketat, meskipun saya memiliki sertifikat lomba.</li>
-        <li>Saya belum mengetahui nilai rapor terbaru secara pasti.</li>
-        <li>Perlu mempertimbangkan biaya sosial dan gaya hidup lingkungan kampus.</li>
-        <li>Jika mengandalkan KIP Kuliah, pengeluaran harus dikontrol sangat ketat.</li>
+        <li>Persaingan SNBP-nya brutal, meskipun saya punya sertifikat.</li>
+        <li>Nilai rapor terbaru belum sempat saya cek.</li>
+        <li>Biaya sosial dan gaya hidup di lingkungan UB bisa lebih tinggi.</li>
+        <li>Kalau pakai KIP, pengeluaran harus dikontrol ketat banget.</li>
       </ul>
     `,
   },
@@ -1004,8 +1051,8 @@ const nodeDetails = {
     content: `
       <ul>
         <li>Status: cadangan.</li>
-        <li>Peluang masuk estimasi: <strong>75%</strong>.</li>
-        <li>Dipertimbangkan jika ada beasiswa atau keringanan biaya yang jelas.</li>
+        <li>Peluang masuk perkiraan: <strong>75%</strong>.</li>
+        <li>Bisa dipertimbangkan kalau ada beasiswa yang jelas.</li>
       </ul>
     `,
   },
@@ -1014,9 +1061,9 @@ const nodeDetails = {
     title: "UMM - Alasan Memilih",
     content: `
       <ul>
-        <li>Peluang masuk cenderung lebih besar.</li>
-        <li>Bisa menjadi opsi cadangan jika PTN belum memungkinkan.</li>
-        <li>Masih layak dipertimbangkan jika ada beasiswa internal.</li>
+        <li>Peluang masuknya lebih gede dibanding PTN.</li>
+        <li>Jadi plan B kalau PTN nggak tembus.</li>
+        <li>Masih oke kalau ada beasiswa internal.</li>
       </ul>
     `,
   },
@@ -1025,9 +1072,9 @@ const nodeDetails = {
     title: "UMM - Alasan Tidak Memilih",
     content: `
       <ul>
-        <li>Karena PTS, risiko biaya lebih tinggi jika tanpa beasiswa.</li>
-        <li>Harus ada kepastian beasiswa atau keringanan biaya.</li>
-        <li>Tidak diprioritaskan jika pembiayaan belum aman.</li>
+        <li>PTS = biaya lebih tinggi kalau nggak dapat beasiswa.</li>
+        <li>Harus ada kepastian beasiswa dulu baru berani daftar.</li>
+        <li>Nggak diprioritaskan kalau biayanya belum aman.</li>
       </ul>
     `,
   },
@@ -1037,8 +1084,8 @@ const nodeDetails = {
     content: `
       <ul>
         <li>Status: cadangan teknis.</li>
-        <li>Peluang masuk estimasi: <strong>75%</strong>.</li>
-        <li>Cocok untuk bidang teknik/terapan, tetapi biaya tetap harus dihitung.</li>
+        <li>Peluang masuk perkiraan: <strong>75%</strong>.</li>
+        <li>Cocok buat bidang teknik, tapi biayanya harus diperhitungkan.</li>
       </ul>
     `,
   },
@@ -1047,9 +1094,9 @@ const nodeDetails = {
     title: "ITN - Alasan Memilih",
     content: `
       <ul>
-        <li>Masih relevan dengan bidang teknologi and teknik.</li>
-        <li>Cocok sebagai opsi kampus yang lebih terapan.</li>
-        <li>Peluang masuk relatif lebih realistis.</li>
+        <li>Bidangnya masih nyambung sama teknologi dan teknik.</li>
+        <li>Cocok kalau mau kampus yang lebih ke arah praktek.</li>
+        <li>Peluang masuknya lumayan realistis.</li>
       </ul>
     `,
   },
@@ -1058,9 +1105,9 @@ const nodeDetails = {
     title: "ITN - Alasan Tidak Memilih",
     content: `
       <ul>
-        <li>Status PTS membuat pembiayaan harus diperhatikan lebih detail.</li>
-        <li>Harus memastikan beasiswa internal atau keringanan biaya.</li>
-        <li>Bukan prioritas jika biaya belum aman.</li>
+        <li>PTS — biayanya harus dihitung lebih hati-hati.</li>
+        <li>Harus pastiin ada beasiswa internal atau keringanan.</li>
+        <li>Nggak jadi prioritas kalau biayanya belum aman.</li>
       </ul>
     `,
   },
@@ -1073,10 +1120,10 @@ const nodeDetails = {
     title: "KIP Kuliah",
     content: `
       <ul>
-        <li>Prioritas 1: Jalur SNBP 2026.</li>
-        <li>Pendaftaran Akun: 3 Feb – 31 Okt 2026.</li>
-        <li>Seleksi SNBP: 3–18 Feb 2026 (Wajib sinkronisasi sebelum 17 Feb).</li>
-        <li>Paling sesuai dengan tujuan kuliah tanpa biaya.</li>
+        <li>Prioritas 1: lewat jalur SNBP 2026.</li>
+        <li>Daftar akun: 3 Feb – 31 Okt 2026.</li>
+        <li>Seleksi SNBP: 3–18 Feb 2026 (sinkronisasi sebelum 17 Feb!).</li>
+        <li>Ini yang paling pas buat tujuan kuliah tanpa biaya.</li>
       </ul>
     `,
   },
@@ -1101,10 +1148,10 @@ const nodeDetails = {
     title: "KIP Kuliah - Benefit",
     content: `
       <ul>
-        <li>Bantuan biaya pendidikan / UKT.</li>
-        <li>Bantuan biaya hidup sesuai ketentuan.</li>
-        <li>Membantu kuliah tanpa membebani keluarga.</li>
-        <li>Menjadi jalur pembiayaan utama sejak awal kuliah.</li>
+        <li>Biaya kuliah / UKT ditanggung.</li>
+        <li>Ada bantuan biaya hidup juga.</li>
+        <li>Keluarga nggak perlu terbebani.</li>
+        <li>Jadi pondasi pembiayaan dari hari pertama kuliah.</li>
       </ul>
     `,
   },
@@ -1113,10 +1160,10 @@ const nodeDetails = {
     title: "KIP Kuliah - Syarat Setelah Diterima",
     content: `
       <ul>
-        <li>Menjadi mahasiswa aktif.</li>
-        <li>Mematuhi aturan kampus and program KIP Kuliah.</li>
-        <li>Menggunakan bantuan sesuai kebutuhan pendidikan.</li>
-        <li>Menjaga prestasi and tidak menyalahgunakan bantuan.</li>
+        <li>Harus tetap aktif jadi mahasiswa.</li>
+        <li>Ikuti aturan kampus dan program KIP.</li>
+        <li>Uangnya dipakai buat pendidikan, bukan yang lain.</li>
+        <li>Jaga prestasi dan nggak nyalahgunakan bantuan.</li>
       </ul>
     `,
   },
@@ -1125,9 +1172,9 @@ const nodeDetails = {
     title: "KIP Kuliah - Kenapa Saya Cocok",
     content: `
       <ul>
-        <li>Fokus utama saya adalah kuliah tanpa biaya.</li>
-        <li>Saya punya portofolio lomba untuk memperkuat profil.</li>
-        <li>KIP Kuliah paling sesuai dengan strategi pembiayaan awal saya.</li>
+        <li>Tujuan utama saya emang kuliah tanpa biaya.</li>
+        <li>Saya punya portofolio lomba yang bisa jadi penguat.</li>
+        <li>KIP Kuliah paling pas sama strategi pembiayaan awal saya.</li>
       </ul>
     `,
   },
@@ -1136,10 +1183,10 @@ const nodeDetails = {
     title: "Beasiswa Unggulan",
     content: `
       <ul>
-        <li>Prioritas 2.</li>
-        <li>Timeline: Perkiraan 15–29 Juli 2026 (Minggu ke-3 Juli).</li>
-        <li>Durasi: Hanya dibuka selama 2 minggu.</li>
-        <li>Cocok untuk profil berbasis prestasi.</li>
+        <li>Prioritas 2 — plan B kalau KIP nggak lolos.</li>
+        <li>Timeline: kira-kira 15–29 Juli 2026 (cuma 2 minggu!).</li>
+        <li>Dibukanya singkat banget, jadi harus siap dari jauh hari.</li>
+        <li>Cocok buat profil yang punya prestasi.</li>
       </ul>
     `,
   },
@@ -1164,10 +1211,10 @@ const nodeDetails = {
     title: "Beasiswa Unggulan - Benefit",
     content: `
       <ul>
-        <li>Bantuan biaya pendidikan.</li>
-        <li>Memperkuat posisi sebagai siswa berprestasi.</li>
-        <li>Mendukung rencana kuliah melalui portofolio lomba.</li>
-        <li>Menjadi alternatif jika KIP Kuliah tidak lolos.</li>
+        <li>Dapat bantuan biaya pendidikan.</li>
+        <li>Jadi bukti kalau saya siswa berprestasi.</li>
+        <li>Portofolio lomba jadi senjata utama di sini.</li>
+        <li>Jaring pengaman kalau KIP nggak tembus.</li>
       </ul>
     `,
   },
@@ -1176,10 +1223,10 @@ const nodeDetails = {
     title: "Beasiswa Unggulan - Syarat Setelah Diterima",
     content: `
       <ul>
-        <li>Menjaga prestasi akademik.</li>
-        <li>Memenuhi laporan atau ketentuan penerima beasiswa.</li>
-        <li>Tidak menerima beasiswa lain jika aturannya melarang.</li>
-        <li>Menjalankan rencana studi dengan bertanggung jawab.</li>
+        <li>Prestasi akademik harus dijaga.</li>
+        <li>Ada laporan yang harus dipenuhi.</li>
+        <li>Nggak boleh terima beasiswa lain kalau aturannya ngelarang.</li>
+        <li>Jalanin rencana studi dengan serius.</li>
       </ul>
     `,
   },
@@ -1188,9 +1235,9 @@ const nodeDetails = {
     title: "Beasiswa Unggulan - Kenapa Saya Cocok",
     content: `
       <ul>
-        <li>Saya memiliki prestasi lomba di bidang teknologi.</li>
-        <li>Saya bisa menjelaskan rencana studi di bidang Teknik Informatika/Sistem Informasi.</li>
-        <li>Beasiswa ini cocok sebagai jalur prestasi jika KIP tidak lolos.</li>
+        <li>Saya punya prestasi lomba di bidang teknologi.</li>
+        <li>Bisa jelasin rencana studi di TI/SI dengan meyakinkan.</li>
+        <li>Beasiswa ini cocok sebagai jalur prestasi kalau KIP nggak lolos.</li>
       </ul>
     `,
   },
@@ -1199,11 +1246,11 @@ const nodeDetails = {
     title: "Beasiswa Bangkit",
     content: `
       <ul>
-        <li>Prioritas 3.</li>
-        <li>Pendaftaran: 1 April – 31 Mei 2026.</li>
-        <li>Seleksi Administrasi: 1–15 Juni 2026.</li>
-        <li>Pengumuman Admin: 16 Juni 2026.</li>
-        <li>Masa Sanggah: 17–18 Juni 2026.</li>
+        <li>Prioritas 3 — kalau dua sebelumnya gagal.</li>
+        <li>Daftar: 1 April – 31 Mei 2026.</li>
+        <li>Seleksi Admin: 1–15 Juni 2026.</li>
+        <li>Pengumuman: 16 Juni 2026.</li>
+        <li>Masa sanggah: 17–18 Juni 2026.</li>
       </ul>
     `,
   },
@@ -1227,9 +1274,9 @@ const nodeDetails = {
     title: "Beasiswa Bangkit - Benefit",
     content: `
       <ul>
-        <li>Menjadi opsi lanjutan jika beasiswa utama gagal.</li>
-        <li>Mendukung pembiayaan pendidikan.</li>
-        <li>Bisa memperkuat rencana kuliah berbasis prestasi.</li>
+        <li>Jadi jaring pengaman kalau beasiswa utama gagal.</li>
+        <li>Tetap bisa bantu biayain pendidikan.</li>
+        <li>Nambah kekuatan rencana kuliah lewat prestasi.</li>
       </ul>
     `,
   },
@@ -1238,10 +1285,10 @@ const nodeDetails = {
     title: "Beasiswa Bangkit - Syarat Setelah Diterima",
     content: `
       <ul>
-        <li>Memenuhi syarat program yang berlaku.</li>
-        <li>Mengikuti seleksi administrasi and verifikasi.</li>
-        <li>Menjaga komitmen akademik.</li>
-        <li>Mematuhi aturan penerima beasiswa.</li>
+        <li>Penuhi syarat program yang berlaku.</li>
+        <li>Ikuti seleksi administrasi dan verifikasi.</li>
+        <li>Tetap komitmen sama akademik.</li>
+        <li>Patuhi aturan penerima beasiswa.</li>
       </ul>
     `,
   },
@@ -1250,8 +1297,8 @@ const nodeDetails = {
     title: "Beasiswa Bangkit - Kenapa Saya Cocok",
     content: `
       <ul>
-        <li>Saya memiliki prestasi teknologi yang bisa menjadi penguat.</li>
-        <li>Beasiswa ini cocok sebagai bagian dari strategi cadangan berlapis.</li>
+        <li>Prestasi teknologi saya bisa jadi penguat.</li>
+        <li>Beasiswa ini cocok sebagai bagian dari strategi berlapis saya.</li>
       </ul>
     `,
   },
@@ -1260,9 +1307,9 @@ const nodeDetails = {
     title: "Djarum Beasiswa Plus",
     content: `
       <ul>
-        <li>Target Semester 4.</li>
-        <li>Estimasi: April 2028 (Jika masuk Sem 1 di Agustus 2026).</li>
-        <li>Lebih cocok sebagai beasiswa lanjutan saat sudah kuliah.</li>
+        <li>Target ini buat semester 4 nanti.</li>
+        <li>Perkiraan: April 2028 (kalau masuk semester 1 Agustus 2026).</li>
+        <li>Lebih cocok sebagai beasiswa lanjutan pas udah jadi mahasiswa.</li>
       </ul>
     `,
   },
@@ -1286,10 +1333,10 @@ const nodeDetails = {
     title: "Djarum - Benefit",
     content: `
       <ul>
-        <li>Bantuan dana pendidikan.</li>
-        <li>Pelatihan soft skill.</li>
-        <li>Networking dengan penerima beasiswa lain.</li>
-        <li>Pengembangan karakter, leadership, and komunikasi.</li>
+        <li>Dapat dana pendidikan.</li>
+        <li>Ada pelatihan soft skill yang keren.</li>
+        <li>Networking sama penerima beasiswa lain.</li>
+        <li>Diajarin soal leadership, karakter, dan komunikasi.</li>
       </ul>
     `,
   },
@@ -1298,10 +1345,10 @@ const nodeDetails = {
     title: "Djarum - Syarat Setelah Diterima",
     content: `
       <ul>
-        <li>Menjaga IPK sesuai ketentuan.</li>
-        <li>Aktif mengikuti kegiatan pembinaan.</li>
-        <li>Menjaga nama baik program.</li>
-        <li>Aktif dalam organisasi atau kegiatan positif.</li>
+        <li>IPK harus dijaga sesuai standar.</li>
+        <li>Wajib ikut kegiatan pembinaan.</li>
+        <li>Jaga nama baik program.</li>
+        <li>Tetap aktif di organisasi atau kegiatan positif.</li>
       </ul>
     `,
   },
@@ -1310,69 +1357,82 @@ const nodeDetails = {
     title: "Djarum - Kenapa Saya Cocok",
     content: `
       <ul>
-        <li>Setelah kuliah, saya ingin berkembang bukan hanya secara akademik.</li>
-        <li>Saya ingin memperkuat soft skill, relasi, and leadership.</li>
-        <li>Prestasi lomba bisa menjadi modal awal untuk menunjukkan keaktifan.</li>
+        <li>Setelah kuliah, saya nggak cuma mau berkembang secara akademik.</li>
+        <li>Saya juga mau nguatin soft skill, relasi, dan leadership.</li>
+        <li>Prestasi lomba bisa jadi modal awal buat nunjukin keaktifan.</li>
       </ul>
     `,
   },
 
   pertamina: {
-    title: "Pertamina Sobat Bumi",
+    title: "Beasiswa Pemkab Sidoarjo",
     content: `
       <ul>
-        <li>Target lanjutan setelah menjadi mahasiswa.</li>
-        <li>Cocok jika sudah memiliki kontribusi sosial/lingkungan and prestasi.</li>
+        <li>Program beasiswa dari Pemerintah Kabupaten Sidoarjo tahun 2026.</li>
+        <li>Pendaftaran: 1 Februari – 28 Februari 2026.</li>
+        <li>Daring melalui: <strong>beasiswasidoarjokab.id</strong>.</li>
+        <li>Target bagi mahasiswa berprestasi asal Sidoarjo.</li>
       </ul>
     `,
   },
 
   pertamina_docs: {
-    title: "Pertamina Sobat Bumi - Dokumen",
+    title: "Beasiswa Sidoarjo - Dokumen",
     content: `
       <ul>
-        <li>KTP</li>
-        <li>KTM</li>
-        <li>Transkrip nilai</li>
-        <li>Sertifikat prestasi</li>
-        <li>Esai / motivation letter</li>
-        <li>Proposal atau bukti kontribusi sosial/lingkungan jika diminta</li>
-        <li>Dokumen pendukung kampus</li>
+        <li>KTP Sidoarjo & Kartu Keluarga</li>
+        <li>Dokumen pendaftaran daring (Online)</li>
+        <li>Transkrip nilai / Bukti prestasi lomba</li>
+        <li>Surat aktif kuliah (jika sudah menempuh)</li>
+        <li>Dokumen lain sesuai juknis di web resmi</li>
       </ul>
     `,
   },
 
   pertamina_benefit: {
-    title: "Pertamina Sobat Bumi - Benefit",
+    title: "Beasiswa Sidoarjo - Benefit",
     content: `
       <ul>
-        <li>Bantuan biaya pendidikan.</li>
-        <li>Pengembangan diri and kontribusi sosial.</li>
-        <li>Meningkatkan portofolio sebagai mahasiswa aktif.</li>
-        <li>Cocok untuk target setelah mulai kuliah.</li>
+        <li>Bantuan dana pendidikan Rp5 juta per orang.</li>
+        <li>Membantu biaya kuliah di perguruan tinggi.</li>
+        <li>Dukungan finansial dari pemerintah daerah.</li>
+        <li>Kekurangan: belum dipastikan cakupan UKT penuh.</li>
       </ul>
     `,
   },
 
   pertamina_obligation: {
-    title: "Pertamina Sobat Bumi - Syarat Setelah Diterima",
+    title: "Beasiswa Sidoarjo - Syarat Diterima",
     content: `
       <ul>
-        <li>Menjaga prestasi akademik.</li>
-        <li>Aktif dalam kegiatan sosial atau lingkungan.</li>
-        <li>Mengikuti program pembinaan jika ada.</li>
-        <li>Memenuhi laporan atau kewajiban penerima beasiswa.</li>
+        <li>Mempertahankan prestasi akademik (IPK).</li>
+        <li>Mematuhi aturan dari Pemkab Sidoarjo.</li>
+        <li>Menggunakan bantuan untuk biaya pendidikan.</li>
+        <li>Menyelesaikan studi sesuai target waktu.</li>
       </ul>
     `,
   },
 
   pertamina_fit: {
-    title: "Pertamina Sobat Bumi - Kenapa Saya Cocok",
+    title: "Beasiswa Sidoarjo - Kenapa Saya Cocok",
     content: `
       <ul>
-        <li>Beasiswa ini cocok sebagai target lanjutan ketika sudah menjadi mahasiswa aktif.</li>
-        <li>Bisa memperkuat portofolio akademik, sosial, and kontribusi.</li>
-        <li>Relevan jika saya ingin berkembang lebih luas setelah kuliah.</li>
+        <li>Saya warga Sidoarjo dan memiliki prestasi lomba.</li>
+        <li>Bantuan Rp5 juta sangat membantu biaya semester.</li>
+        <li>Cocok sebagai strategi pembiayaan mandiri/daerah.</li>
+        <li>Sesuai dengan domisili dan profil prestasi saya.</li>
+      </ul>
+    `,
+  },
+
+  pwnu: {
+    title: "Beasiswa PWNU Jawa Timur",
+    content: `
+      <ul>
+        <li>Resmi dibuka: 27 April 2026.</li>
+        <li>Penutupan pendaftaran: 20 Mei 2026.</li>
+        <li>Rangkaian seleksi & tahapan tes: 23 Mei 2026.</li>
+        <li>Kesempatan emas melalui jaringan organisasi PWNU.</li>
       </ul>
     `,
   },
@@ -1385,10 +1445,10 @@ const nodeDetails = {
     title: "LKS Dikmen Sidoarjo 2025",
     content: `
       <ul>
-        <li>Bidang lomba: Cyber Security.</li>
+        <li>Bidang: Cyber Security.</li>
         <li>Hasil: Juara 3.</li>
-        <li>Timeline: 18–21 Februari 2025.</li>
-        <li>Digunakan untuk memperkuat portofolio beasiswa.</li>
+        <li>Waktu: 18–21 Februari 2025.</li>
+        <li>Dari sini saya mulai yakin bisa di bidang ini.</li>
       </ul>
     `,
   },
@@ -1397,10 +1457,10 @@ const nodeDetails = {
     title: "LKS Ma'arif Sidoarjo 2026",
     content: `
       <ul>
-        <li>Bidang lomba: Cloud Computing.</li>
+        <li>Bidang: Cloud Computing.</li>
         <li>Lokasi: Blitar.</li>
         <li>Hasil: Juara 3.</li>
-        <li>Timeline: 16–18 Januari 2026.</li>
+        <li>Waktu: 16–18 Januari 2026.</li>
       </ul>
     `,
   },
@@ -1409,11 +1469,11 @@ const nodeDetails = {
     title: "Target LKS Dikmen Sidoarjo 2026",
     content: `
       <ul>
-        <li>Bidang lomba: Cyber Security.</li>
-        <li>Target realistis: Juara 2 and lolos provinsi.</li>
-        <li>Catatan: juara 1 kemungkinan besar dari Telkom.</li>
+        <li>Bidang: Cyber Security.</li>
+        <li>Realistisnya: juara 2 dan lolos provinsi.</li>
+        <li>Juara 1 kemungkinan besar dari Telkom — jadi saya incar posisi 2.</li>
         <li>Pembukaan: 6 Februari 2026.</li>
-        <li>Perlombaan: 8–11 Februari 2026.</li>
+        <li>Lomba: 8–11 Februari 2026.</li>
       </ul>
     `,
   },
@@ -1477,17 +1537,13 @@ const cy = cytoscape({
     { data: { id: "bangkit_obligation", label: "SYARAT\nDITERIMA", type: "sub-rule" }, position: { x: 1230, y: 830 } },
     { data: { id: "bangkit_fit", label: "KENAPA\nCOCOK", type: "sub-fit" }, position: { x: 1420, y: 830 } },
 
-    { data: { id: "djarum", label: "DJARUM", type: "scholar" }, position: { x: 610, y: 960 } },
-    { data: { id: "djarum_docs", label: "DOKUMEN", type: "sub-doc" }, position: { x: 850, y: 930 } },
-    { data: { id: "djarum_benefit", label: "BENEFIT", type: "sub-benefit" }, position: { x: 1040, y: 930 } },
-    { data: { id: "djarum_obligation", label: "SYARAT\nDITERIMA", type: "sub-rule" }, position: { x: 1230, y: 930 } },
-    { data: { id: "djarum_fit", label: "KENAPA\nCOCOK", type: "sub-fit" }, position: { x: 1420, y: 930 } },
+    { data: { id: "pwnu", label: "BEASISWA\nPWNU JATIM", type: "scholar" }, position: { x: 610, y: 960 } },
 
-    { data: { id: "pertamina", label: "PERTAMINA\nSOBAT BUMI", type: "scholar" }, position: { x: 610, y: 1060 } },
-    { data: { id: "pertamina_docs", label: "DOKUMEN", type: "sub-doc" }, position: { x: 850, y: 1030 } },
-    { data: { id: "pertamina_benefit", label: "BENEFIT", type: "sub-benefit" }, position: { x: 1040, y: 1030 } },
-    { data: { id: "pertamina_obligation", label: "SYARAT\nDITERIMA", type: "sub-rule" }, position: { x: 1230, y: 1030 } },
-    { data: { id: "pertamina_fit", label: "KENAPA\nCOCOK", type: "sub-fit" }, position: { x: 1420, y: 1030 } },
+    { data: { id: "djarum", label: "DJARUM", type: "scholar" }, position: { x: 610, y: 1060 } },
+    { data: { id: "djarum_docs", label: "DOKUMEN", type: "sub-doc" }, position: { x: 850, y: 1030 } },
+    { data: { id: "djarum_benefit", label: "BENEFIT", type: "sub-benefit" }, position: { x: 1040, y: 1030 } },
+    { data: { id: "djarum_obligation", label: "SYARAT\nDITERIMA", type: "sub-rule" }, position: { x: 1230, y: 1030 } },
+    { data: { id: "djarum_fit", label: "KENAPA\nCOCOK", type: "sub-fit" }, position: { x: 1420, y: 1030 } },
 
     // prestasi
     { data: { id: "sertif1", label: "LKS 2025\nCYBER", type: "cert" }, position: { x: 610, y: 1190 } },
@@ -1543,17 +1599,12 @@ const cy = cytoscape({
     { data: { source: "bangkit", target: "bangkit_obligation", label: "syarat" } },
     { data: { source: "bangkit", target: "bangkit_fit", label: "cocok" } },
 
-    { data: { source: "beasiswa", target: "djarum", label: "lanjutan" } },
+    { data: { source: "beasiswa", target: "pwnu", label: "lanjutan" } },
+    { data: { source: "beasiswa", target: "djarum", label: "opsi terakhir" } },
     { data: { source: "djarum", target: "djarum_docs", label: "dokumen" } },
     { data: { source: "djarum", target: "djarum_benefit", label: "benefit" } },
     { data: { source: "djarum", target: "djarum_obligation", label: "syarat" } },
     { data: { source: "djarum", target: "djarum_fit", label: "cocok" } },
-
-    { data: { source: "beasiswa", target: "pertamina", label: "lanjutan" } },
-    { data: { source: "pertamina", target: "pertamina_docs", label: "dokumen" } },
-    { data: { source: "pertamina", target: "pertamina_benefit", label: "benefit" } },
-    { data: { source: "pertamina", target: "pertamina_obligation", label: "syarat" } },
-    { data: { source: "pertamina", target: "pertamina_fit", label: "cocok" } },
 
     // prestasi
     { data: { source: "prestasi", target: "sertif1", label: "sertifikat 1" } },
