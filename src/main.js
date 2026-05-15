@@ -209,7 +209,7 @@ const scholarships = [
     tagClass: "tag-blue",
     accent: "#2563eb",
     subtitle: "Pembiayaan awal kuliah",
-    timeline: "Feb–Okt 2026",
+    timeline: "Akun: 3 Feb – 31 Okt · Seleksi SNBP: 3–18 Feb 2026",
     docs: [
       "KTP",
       "Kartu Keluarga",
@@ -227,6 +227,8 @@ const scholarships = [
       "Menjadi jalur pembiayaan utama sejak awal kuliah",
     ],
     obligations: [
+      "Wajib melengkapi data KIP Kuliah sebelum finalisasi SNBP",
+      "Selesaikan pendaftaran paling lambat 17 Feb 2026 (H-1 penutupan)",
       "Menjaga status akademik sebagai mahasiswa aktif",
       "Mengikuti ketentuan kampus dan program KIP Kuliah",
       "Menggunakan bantuan sesuai kebutuhan pendidikan",
@@ -239,7 +241,7 @@ const scholarships = [
     tagClass: "tag-green",
     accent: "#059669",
     subtitle: "Alternatif berbasis prestasi",
-    timeline: "Update resmi",
+    timeline: "Perkiraan: 15–29 Juli 2026",
     docs: [
       "KTP",
       "Kartu Keluarga",
@@ -269,7 +271,7 @@ const scholarships = [
     tagClass: "tag-cyan",
     accent: "#0891b2",
     subtitle: "Jika syarat sesuai",
-    timeline: "Cek jadwal resmi",
+    timeline: "1 April – 31 Mei 2026",
     docs: [
       "KTP",
       "KK",
@@ -297,7 +299,7 @@ const scholarships = [
     tagClass: "tag-orange",
     accent: "#ea580c",
     subtitle: "Target setelah menjadi mahasiswa",
-    timeline: "Target semester 4+",
+    timeline: "Target: April 2028 (Saat Semester 4)",
     docs: [
       "KTM",
       "KTP",
@@ -1071,8 +1073,9 @@ const nodeDetails = {
     title: "KIP Kuliah",
     content: `
       <ul>
-        <li>Prioritas 1.</li>
-        <li>Target utama untuk pembiayaan awal kuliah.</li>
+        <li>Prioritas 1: Jalur SNBP 2026.</li>
+        <li>Pendaftaran Akun: 3 Feb – 31 Okt 2026.</li>
+        <li>Seleksi SNBP: 3–18 Feb 2026 (Wajib sinkronisasi sebelum 17 Feb).</li>
         <li>Paling sesuai dengan tujuan kuliah tanpa biaya.</li>
       </ul>
     `,
@@ -1134,7 +1137,8 @@ const nodeDetails = {
     content: `
       <ul>
         <li>Prioritas 2.</li>
-        <li>Alternatif jika KIP Kuliah tidak lolos.</li>
+        <li>Timeline: Perkiraan 15–29 Juli 2026 (Minggu ke-3 Juli).</li>
+        <li>Durasi: Hanya dibuka selama 2 minggu.</li>
         <li>Cocok untuk profil berbasis prestasi.</li>
       </ul>
     `,
@@ -1196,7 +1200,10 @@ const nodeDetails = {
     content: `
       <ul>
         <li>Prioritas 3.</li>
-        <li>Opsi lanjutan jika syarat sesuai.</li>
+        <li>Pendaftaran: 1 April – 31 Mei 2026.</li>
+        <li>Seleksi Administrasi: 1–15 Juni 2026.</li>
+        <li>Pengumuman Admin: 16 Juni 2026.</li>
+        <li>Masa Sanggah: 17–18 Juni 2026.</li>
       </ul>
     `,
   },
@@ -1253,7 +1260,8 @@ const nodeDetails = {
     title: "Djarum Beasiswa Plus",
     content: `
       <ul>
-        <li>Target setelah menjadi mahasiswa.</li>
+        <li>Target Semester 4.</li>
+        <li>Estimasi: April 2028 (Jika masuk Sem 1 di Agustus 2026).</li>
         <li>Lebih cocok sebagai beasiswa lanjutan saat sudah kuliah.</li>
       </ul>
     `,
