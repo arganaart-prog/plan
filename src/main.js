@@ -81,6 +81,34 @@ const campuses = [
     decision: "Menjadi pilihan realistis utama saya pada saat ini.",
   },
   {
+    name: "Universitas Brawijaya",
+    type: "PTN",
+    status: "Prioritas Impian",
+    tagClass: "tag-orange",
+    chance: 75,
+    note: "Kampus impian dengan peluang baik, namun memerlukan perhitungan finansial yang matang",
+    risk: "Sedang",
+    color: "#ea580c",
+    majorFit:
+      "Menjadi pilihan ideal jika dapat diterima di program teknologi atau informatika.",
+    whyChoose: [
+      "Universitas Brawijaya merupakan kampus impian saya sejak lama.",
+      "Memiliki reputasi akademik yang sangat kuat serta jaringan relasi yang luas.",
+      "Lingkungan yang kompetitif dapat memacu perkembangan diri saya secara signifikan.",
+    ],
+    whyNotMain: [
+      "Tingkat persaingan jalur SNBP sangat ketat, meskipun saya memiliki portofolio prestasi.",
+      "Kesiapan nilai rapor terbaru masih perlu divalidasi dengan pihak sekolah.",
+      "Saat ini fokus saya terbagi pada pekerjaan, lomba, dan bisnis, sehingga perlu penyesuaian waktu.",
+      "Biaya hidup dan lingkungan sosial di sekitar kampus cenderung lebih tinggi.",
+      "Akan menjadi tantangan tersendiri jika hanya mengandalkan bantuan finansial dari KIP Kuliah.",
+    ],
+    financeNote:
+      "Estimasi perhitungan kasar: Biaya transportasi ±Rp20.000/hari × 22 hari = ±Rp440.000/bulan atau ±Rp2.640.000/semester. Dari total bantuan Rp5.800.000, sisa dana sekitar Rp3.160.000 harus dikelola dengan sangat disiplin untuk kebutuhan lain.",
+    decision:
+      "Tetap menjadi target impian, namun bukan pilihan paling aman dari segi pembiayaan hidup.",
+  },
+  {
     name: "Universitas Negeri Malang",
     type: "PTN",
     status: "Alternatif Kuat",
@@ -126,34 +154,6 @@ const campuses = [
     ],
     decision:
       "Masih dipertimbangkan, namun bukan sebagai prioritas utama mengingat saya membutuhkan fleksibilitas waktu.",
-  },
-  {
-    name: "Universitas Brawijaya",
-    type: "PTN",
-    status: "Prioritas Impian",
-    tagClass: "tag-orange",
-    chance: 75,
-    note: "Kampus impian dengan peluang baik, namun memerlukan perhitungan finansial yang matang",
-    risk: "Sedang",
-    color: "#ea580c",
-    majorFit:
-      "Menjadi pilihan ideal jika dapat diterima di program teknologi atau informatika.",
-    whyChoose: [
-      "Universitas Brawijaya merupakan kampus impian saya sejak lama.",
-      "Memiliki reputasi akademik yang sangat kuat serta jaringan relasi yang luas.",
-      "Lingkungan yang kompetitif dapat memacu perkembangan diri saya secara signifikan.",
-    ],
-    whyNotMain: [
-      "Tingkat persaingan jalur SNBP sangat ketat, meskipun saya memiliki portofolio prestasi.",
-      "Kesiapan nilai rapor terbaru masih perlu divalidasi dengan pihak sekolah.",
-      "Saat ini fokus saya terbagi pada pekerjaan, lomba, dan bisnis, sehingga perlu penyesuaian waktu.",
-      "Biaya hidup dan lingkungan sosial di sekitar kampus cenderung lebih tinggi.",
-      "Akan menjadi tantangan tersendiri jika hanya mengandalkan bantuan finansial dari KIP Kuliah.",
-    ],
-    financeNote:
-      "Estimasi perhitungan kasar: Biaya transportasi ±Rp20.000/hari × 22 hari = ±Rp440.000/bulan atau ±Rp2.640.000/semester. Dari total bantuan Rp5.800.000, sisa dana sekitar Rp3.160.000 harus dikelola dengan sangat disiplin untuk kebutuhan lain.",
-    decision:
-      "Tetap menjadi target impian, namun bukan pilihan paling aman dari segi pembiayaan hidup.",
   },
   {
     name: "UMM",
@@ -375,6 +375,17 @@ const consideredScholarships = [
 
 const mandiriSchedules = [
   {
+    campus: "Polinema",
+    short: "Polinema",
+    badge: "Mandiri",
+    colorClass: "mandiri-green",
+    note: "Verifikasi melalui spmb.polinema.ac.id",
+    items: [
+      "<strong>Jalur Prestasi & UTBK:</strong><br>• Buka: 21 April 2026<br>• Tutup: 7 Juni 2026<br>• Pengumuman: 12 Juni 2026",
+      "<strong>Jalur Konsorsium:</strong><br>• Buka: April 2026<br>• Tutup: 31 Mei 2026<br>• Pengumuman: Juni 2026",
+    ],
+  },
+  {
     campus: "Universitas Brawijaya",
     short: "UB",
     badge: "SMUB",
@@ -394,17 +405,6 @@ const mandiriSchedules = [
     items: [
       "<strong>Jalur Prestasi:</strong><br>• Buka: 1 April 2026<br>• Tutup: 20 Mei 2026<br>• Pengumuman: 3 Juni 2026",
       "<strong>Jalur Skor UTBK:</strong><br>• Buka: 1 April 2026<br>• Tutup: 29 Mei 2026<br>• Pengumuman: 5 Juni 2026",
-    ],
-  },
-  {
-    campus: "Polinema",
-    short: "Polinema",
-    badge: "Mandiri",
-    colorClass: "mandiri-green",
-    note: "Verifikasi melalui spmb.polinema.ac.id",
-    items: [
-      "<strong>Jalur Prestasi & UTBK:</strong><br>• Buka: 21 April 2026<br>• Tutup: 7 Juni 2026<br>• Pengumuman: 12 Juni 2026",
-      "<strong>Jalur Konsorsium:</strong><br>• Buka: April 2026<br>• Tutup: 31 Mei 2026<br>• Pengumuman: Juni 2026",
     ],
   },
   {
@@ -1547,6 +1547,10 @@ const cy = cytoscape({
     { data: { source: "polinema", target: "polinema_choose", label: "memilih" } },
     { data: { source: "polinema", target: "polinema_not", label: "tidak" } },
 
+    { data: { source: "kampus", target: "ub", label: "impian" } },
+    { data: { source: "ub", target: "ub_choose", label: "memilih" } },
+    { data: { source: "ub", target: "ub_not", label: "tidak" } },
+
     { data: { source: "kampus", target: "um", label: "opsi" } },
     { data: { source: "um", target: "um_choose", label: "memilih" } },
     { data: { source: "um", target: "um_not", label: "tidak" } },
@@ -1554,10 +1558,6 @@ const cy = cytoscape({
     { data: { source: "kampus", target: "uin", label: "opsi" } },
     { data: { source: "uin", target: "uin_choose", label: "memilih" } },
     { data: { source: "uin", target: "uin_not", label: "tidak" } },
-
-    { data: { source: "kampus", target: "ub", label: "impian" } },
-    { data: { source: "ub", target: "ub_choose", label: "memilih" } },
-    { data: { source: "ub", target: "ub_not", label: "tidak" } },
 
     { data: { source: "kampus", target: "umm", label: "cadangan" } },
     { data: { source: "umm", target: "umm_choose", label: "memilih" } },
