@@ -130,12 +130,12 @@ const campuses = [
   {
     name: "Universitas Brawijaya",
     type: "PTN",
-    status: "Impian / Sangat Kompetitif",
-    tagClass: "tag-red",
-    chance: 35,
-    note: "Kampus impian, tetapi persaingan sangat ketat",
-    risk: "Tinggi",
-    color: "#dc2626",
+    status: "Prioritas Impian",
+    tagClass: "tag-orange",
+    chance: 75,
+    note: "Kampus impian dengan peluang yang sangat baik",
+    risk: "Sedang",
+    color: "#ea580c",
     majorFit:
       "Sangat menarik jika bisa masuk bidang teknologi/informatika.",
     whyChoose: [
@@ -966,9 +966,9 @@ const nodeDetails = {
     title: "Universitas Brawijaya",
     content: `
       <ul>
-        <li>Status: kampus impian.</li>
-        <li>Peluang masuk estimasi: <strong>35%</strong>.</li>
-        <li>Sangat menarik, tetapi persaingan sangat ketat.</li>
+        <li>Status: prioritas impian.</li>
+        <li>Peluang masuk estimasi: <strong>75%</strong>.</li>
+        <li>Sangat menarik dengan peluang yang sangat baik.</li>
       </ul>
     `,
   },
@@ -1438,7 +1438,7 @@ const cy = cytoscape({
     { data: { id: "uin_choose", label: "ALASAN\nMEMILIH", type: "sub-good" }, position: { x: 850, y: 215 } },
     { data: { id: "uin_not", label: "ALASAN\nTIDAK", type: "sub-warn" }, position: { x: 850, y: 275 } },
 
-    { data: { id: "ub", label: "UB\n35%", type: "campus" }, position: { x: 610, y: 340 } },
+    { data: { id: "ub", label: "UB\n75%", type: "campus" }, position: { x: 610, y: 340 } },
     { data: { id: "ub_choose", label: "ALASAN\nMEMILIH", type: "sub-good" }, position: { x: 850, y: 315 } },
     { data: { id: "ub_not", label: "ALASAN\nTIDAK", type: "sub-warn" }, position: { x: 850, y: 375 } },
 
